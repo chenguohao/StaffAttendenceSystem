@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4668709D1E59668D00D06A43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4668709C1E59668D00D06A43 /* AppDelegate.m */; };
+		466870A01E59668D00D06A43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4668709F1E59668D00D06A43 /* main.m */; };
+		466870A31E59668D00D06A43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 466870A21E59668D00D06A43 /* ViewController.m */; };
+		466870A51E59668D00D06A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466870A41E59668D00D06A43 /* Assets.xcassets */; };
+		466870A81E59668D00D06A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466870A61E59668D00D06A43 /* Main.storyboard */; };
+		466870B31E59668D00D06A43 /* SASTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 466870B21E59668D00D06A43 /* SASTests.m */; };
+		466870BE1E59668D00D06A43 /* SASUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 466870BD1E59668D00D06A43 /* SASUITests.m */; };
+		466870CD1E59690700D06A43 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 466870CC1E59690700D06A43 /* NetworkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466870AF1E59668D00D06A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466870901E59668C00D06A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466870971E59668D00D06A43;
+			remoteInfo = SAS;
+		};
+		466870BA1E59668D00D06A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466870901E59668C00D06A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466870971E59668D00D06A43;
+			remoteInfo = SAS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466870981E59668D00D06A43 /* SAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4668709B1E59668D00D06A43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4668709C1E59668D00D06A43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4668709F1E59668D00D06A43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		466870A11E59668D00D06A43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		466870A21E59668D00D06A43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		466870A41E59668D00D06A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466870A71E59668D00D06A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466870A91E59668D00D06A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466870AE1E59668D00D06A43 /* SASTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SASTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466870B21E59668D00D06A43 /* SASTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SASTests.m; sourceTree = "<group>"; };
+		466870B41E59668D00D06A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466870B91E59668D00D06A43 /* SASUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SASUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		466870BD1E59668D00D06A43 /* SASUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SASUITests.m; sourceTree = "<group>"; };
+		466870BF1E59668D00D06A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466870CB1E59690700D06A43 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		466870CC1E59690700D06A43 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466870951E59668D00D06A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466870AB1E59668D00D06A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466870B61E59668D00D06A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4668708F1E59668C00D06A43 = {
+			isa = PBXGroup;
+			children = (
+				4668709A1E59668D00D06A43 /* SAS */,
+				466870B11E59668D00D06A43 /* SASTests */,
+				466870BC1E59668D00D06A43 /* SASUITests */,
+				466870991E59668D00D06A43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466870991E59668D00D06A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466870981E59668D00D06A43 /* SAS.app */,
+				466870AE1E59668D00D06A43 /* SASTests.xctest */,
+				466870B91E59668D00D06A43 /* SASUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4668709A1E59668D00D06A43 /* SAS */ = {
+			isa = PBXGroup;
+			children = (
+				4668709B1E59668D00D06A43 /* AppDelegate.h */,
+				4668709C1E59668D00D06A43 /* AppDelegate.m */,
+				466870A11E59668D00D06A43 /* ViewController.h */,
+				466870A21E59668D00D06A43 /* ViewController.m */,
+				466870CB1E59690700D06A43 /* NetworkManager.h */,
+				466870CC1E59690700D06A43 /* NetworkManager.m */,
+				466870A41E59668D00D06A43 /* Assets.xcassets */,
+				466870A61E59668D00D06A43 /* Main.storyboard */,
+				466870A91E59668D00D06A43 /* Info.plist */,
+				4668709E1E59668D00D06A43 /* Supporting Files */,
+			);
+			path = SAS;
+			sourceTree = "<group>";
+		};
+		4668709E1E59668D00D06A43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4668709F1E59668D00D06A43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		466870B11E59668D00D06A43 /* SASTests */ = {
+			isa = PBXGroup;
+			children = (
+				466870B21E59668D00D06A43 /* SASTests.m */,
+				466870B41E59668D00D06A43 /* Info.plist */,
+			);
+			path = SASTests;
+			sourceTree = "<group>";
+		};
+		466870BC1E59668D00D06A43 /* SASUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466870BD1E59668D00D06A43 /* SASUITests.m */,
+				466870BF1E59668D00D06A43 /* Info.plist */,
+			);
+			path = SASUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466870971E59668D00D06A43 /* SAS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466870C21E59668D00D06A43 /* Build configuration list for PBXNativeTarget "SAS" */;
+			buildPhases = (
+				466870941E59668D00D06A43 /* Sources */,
+				466870951E59668D00D06A43 /* Frameworks */,
+				466870961E59668D00D06A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAS;
+			productName = SAS;
+			productReference = 466870981E59668D00D06A43 /* SAS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466870AD1E59668D00D06A43 /* SASTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466870C51E59668D00D06A43 /* Build configuration list for PBXNativeTarget "SASTests" */;
+			buildPhases = (
+				466870AA1E59668D00D06A43 /* Sources */,
+				466870AB1E59668D00D06A43 /* Frameworks */,
+				466870AC1E59668D00D06A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466870B01E59668D00D06A43 /* PBXTargetDependency */,
+			);
+			name = SASTests;
+			productName = SASTests;
+			productReference = 466870AE1E59668D00D06A43 /* SASTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		466870B81E59668D00D06A43 /* SASUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466870C81E59668D00D06A43 /* Build configuration list for PBXNativeTarget "SASUITests" */;
+			buildPhases = (
+				466870B51E59668D00D06A43 /* Sources */,
+				466870B61E59668D00D06A43 /* Frameworks */,
+				466870B71E59668D00D06A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466870BB1E59668D00D06A43 /* PBXTargetDependency */,
+			);
+			name = SASUITests;
+			productName = SASUITests;
+			productReference = 466870B91E59668D00D06A43 /* SASUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466870901E59668C00D06A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Xes;
+				TargetAttributes = {
+					466870971E59668D00D06A43 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					466870AD1E59668D00D06A43 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 466870971E59668D00D06A43;
+					};
+					466870B81E59668D00D06A43 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 466870971E59668D00D06A43;
+					};
+				};
+			};
+			buildConfigurationList = 466870931E59668C00D06A43 /* Build configuration list for PBXProject "SAS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4668708F1E59668C00D06A43;
+			productRefGroup = 466870991E59668D00D06A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466870971E59668D00D06A43 /* SAS */,
+				466870AD1E59668D00D06A43 /* SASTests */,
+				466870B81E59668D00D06A43 /* SASUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466870961E59668D00D06A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466870A51E59668D00D06A43 /* Assets.xcassets in Resources */,
+				466870A81E59668D00D06A43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466870AC1E59668D00D06A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466870B71E59668D00D06A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466870941E59668D00D06A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466870CD1E59690700D06A43 /* NetworkManager.m in Sources */,
+				466870A31E59668D00D06A43 /* ViewController.m in Sources */,
+				466870A01E59668D00D06A43 /* main.m in Sources */,
+				4668709D1E59668D00D06A43 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466870AA1E59668D00D06A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466870B31E59668D00D06A43 /* SASTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466870B51E59668D00D06A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466870BE1E59668D00D06A43 /* SASUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466870B01E59668D00D06A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466870971E59668D00D06A43 /* SAS */;
+			targetProxy = 466870AF1E59668D00D06A43 /* PBXContainerItemProxy */;
+		};
+		466870BB1E59668D00D06A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466870971E59668D00D06A43 /* SAS */;
+			targetProxy = 466870BA1E59668D00D06A43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466870A61E59668D00D06A43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466870A71E59668D00D06A43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466870C01E59668D00D06A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		466870C11E59668D00D06A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		466870C31E59668D00D06A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SAS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.SAS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		466870C41E59668D00D06A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SAS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.SAS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		466870C61E59668D00D06A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SASTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.SASTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAS.app/Contents/MacOS/SAS";
+			};
+			name = Debug;
+		};
+		466870C71E59668D00D06A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SASTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.SASTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAS.app/Contents/MacOS/SAS";
+			};
+			name = Release;
+		};
+		466870C91E59668D00D06A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SASUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.SASUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAS;
+			};
+			name = Debug;
+		};
+		466870CA1E59668D00D06A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SASUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xes.SASUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466870931E59668C00D06A43 /* Build configuration list for PBXProject "SAS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466870C01E59668D00D06A43 /* Debug */,
+				466870C11E59668D00D06A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466870C21E59668D00D06A43 /* Build configuration list for PBXNativeTarget "SAS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466870C31E59668D00D06A43 /* Debug */,
+				466870C41E59668D00D06A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466870C51E59668D00D06A43 /* Build configuration list for PBXNativeTarget "SASTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466870C61E59668D00D06A43 /* Debug */,
+				466870C71E59668D00D06A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466870C81E59668D00D06A43 /* Build configuration list for PBXNativeTarget "SASUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466870C91E59668D00D06A43 /* Debug */,
+				466870CA1E59668D00D06A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466870901E59668C00D06A43 /* Project object */;
+}
