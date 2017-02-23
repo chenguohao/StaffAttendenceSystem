@@ -16,8 +16,22 @@
     NSString* name = NSFullUserName() ;
     NSLog(@"current user %@",name);
     
-    [[NetworkManager sharedInstance] loginWithBlock:^(NSString *staffID) {
-         
+//    [[NetworkManager sharedInstance] loginWithBlock:^(NSString *staffID) {
+//         [[NetworkManager sharedInstance] fetchAttencyListWithStaffID:staffID Block:^(NSArray *attenArray) {
+//             
+//         }];
+//    }];
+//    
+//    [[NetworkManager sharedInstance] fetchReasonTempWithBlock:^(NSArray *attenArray) {
+//        
+//    }];
+//    
+//    [[NetworkManager sharedInstance] fetchReasonTypeWithBlock:^(NSArray *attenArray) {
+//        
+//    }];
+    
+    [[NetworkManager sharedInstance] submitReasonType:@"Late" Detail:@"Raining" AttendencID:@"1281" Block:^(NSString *result) {
+        NSLog(result);
     }];
 }
 
